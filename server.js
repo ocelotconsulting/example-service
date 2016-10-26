@@ -7,4 +7,6 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 const port = parseInt(process.env.PORT, 10) || 3000
 
+app.get('/', (req, res) => res.redirect('/api-docs'))
+
 app.listen(port, () => console.log(`running: http://localhost:${port}`))
