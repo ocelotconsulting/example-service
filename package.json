@@ -1,0 +1,27 @@
+{
+  "name": "example-service",
+  "version": "1.0.0",
+  "description": "example node.js microservice",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ocelotconsulting/example-service.git"
+  },
+  "keywords": [
+    "service"
+  ],
+  "author": "John O'Malley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocelotconsulting/example-service/issues"
+  },
+  "homepage": "https://github.com/ocelotconsulting/example-service#readme",
+  "dependencies": {
+    "express": "~4.14.0",
+    "swagger-ui-express": "~1.0.1"
+  }
+}
